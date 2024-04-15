@@ -41,7 +41,7 @@ app.get('/api/config/paypal', (req, res) => {
 
 const __dirname = path.resolve()
 
-app.use("/uploads", express.static(path.join(__dirname + '/uploads')))
+app.use("/uploads", express.static(path.join(__dirname + 'https://shoppers-prime-backend-production.up.railway.app/uploads')))
 
 //Start Listening
 app.listen(PORT, () => console.log(`Server Running on Port: ${PORT}`));
